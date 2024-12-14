@@ -1,0 +1,82 @@
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    background-image: url('/images/taskbg.png'); 
+    background-size: cover;
+    background-position: center;
+
+}
+.container {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+/* 
+
+
+/* Centered Login Form */
+.login-form-container {
+    background-color: rgba(255, 143, 143, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Form Input Fields */
+.form-control {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.login-button {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+    .login-form-container {
+        width: 40%;
+    }
+}
+
