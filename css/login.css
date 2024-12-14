@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 2%;
-    background-image: url('/images/taskbg.png'); 
+    background-image: url('../images/taskbg.png'); 
     background-size: cover;
     background-position: center;
 
